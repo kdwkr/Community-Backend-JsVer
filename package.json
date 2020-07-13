@@ -1,0 +1,32 @@
+{
+  "name": "community",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon --watch src/* --watch src/**/* src/index.js"
+  },
+  "author": "",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "redis": "^3.0.2",
+    "sequelize": "^6.3.0",
+    "uuid": "^8.2.0"
+  }
+}
